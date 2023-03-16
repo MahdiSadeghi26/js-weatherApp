@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 @import "./input";
+@import "./fonts";
 
 body{
     background: url("../public/img/bkg.jpg") fixed center no-repeat;
@@ -16,4 +17,18 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
+}
+// region-date section
+.region-date{
+    color: aliceblue;
+    text-align: center;
+}
+.region{
+    font-size: 48px;
+    font-family: Roboto-Bold;
+}
+.date{
+    margin: 10px;
+    font-size: 20px;
+    font-family: Roboto-Light;
 }
