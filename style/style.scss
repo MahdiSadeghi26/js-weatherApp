@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 @import "./input";
-@import "./landing";
 
 body{
-    background-color: slateblue
-     ;
+    background: url("../public/img/bkg.jpg") fixed center no-repeat;
+    background-size: cover;
+}
+// container seciton
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
