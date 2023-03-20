@@ -20,6 +20,7 @@ body{
 }
 // region-date section
 .region-date{
+    text-shadow: -1px 0px 7px rgba(0, 0, 0, 1);
     color: aliceblue;
     text-align: center;
 }
@@ -31,4 +32,20 @@ body{
     margin: 10px;
     font-size: 20px;
     font-family: Roboto-Light;
+}
+// tempurture and weather type section
+.weather-info{
+    text-align: center;
+    margin-top: 80px;
+    color: aliceblue;
+    text-shadow: 3px -3px 7px rgba(0, 0, 0, 1);
+}
+.degree{
+    font-size: 78px;
+    font-family: Roboto-Bold;
+}
+.weather-type{
+    margin-top: 40px;
+    font-size: 38px;
+    font-family: Roboto-regular;
 }
