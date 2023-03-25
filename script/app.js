@@ -14,6 +14,7 @@ const date=$.querySelector('.date')
     // temp and weather type\
 const temp=$.querySelector('.degree')
 const weatherType=$.querySelector('.weather-type')
+const highestLowest=$.querySelector('.heighew-lowest')
 // funcitons
 function adingWeatherToDom(api) {
     if (api.cod===200) {
@@ -25,7 +26,8 @@ function adingWeatherToDom(api) {
         temp.innerHTML=`${Math.trunc(api.main.temp)}°C`;
         // applying weather type
         weatherType.innerHTML=api.weather[0].main
-        
+        // highest lowest temp
+        highestLowest.innerHTML=`${Math.trunc(api.main.temp_max)}°C  / ${Math.trunc(api.main.temp_min)}°C`
         
     }else{
         alert("Something Went Wrong !!!")
